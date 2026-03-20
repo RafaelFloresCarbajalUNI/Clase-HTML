@@ -1,0 +1,55 @@
+Enlistar 5 personajes e incorporar ya sea una pagina oficial o un video  
+<br>
+#Rafael Flores 
+<style>
+    body{
+        background-color: rgb(190, 27, 62);
+    }
+    ul{
+        list-style: square;
+        list-style: none;
+        counter-reset: item;
+    }
+     li{
+     position: relative;
+     padding-left: 2em;
+     }
+     li::before{
+        content: counter(item);
+        counter-increment: item;
+        position: absolute;
+        left: 0;
+        color: rgb(226, 205, 18);
+        font-weight: bold;
+     }
+
+</style>
+    <ul>
+        <li>
+            <strong>Spider-Man</strong> (Marvel) <br>
+            <a href="https://www.marvel.com/characters/spider-man-peter-parker" target="_blank">Ver Página Oficial</a>
+        </li>
+
+        <li>
+            <strong>Batman</strong> (DC Comics) <br>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/mbb_m227uS4" frameborder="0" allowfullscreen></iframe>
+        </li>
+
+        <li>
+            <strong>Goku</strong> (Dragon Ball) <br>
+            <a href="https://dragonball.news/es/" target="_blank">Sitio Oficial de Dragon Ball</a>
+        </li>
+
+        <li>
+            <strong>Master Chief</strong> (Halo) <br>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/5ieS8G3Tz_I" frameborder="0" allowfullscreen></iframe>
+        </li>
+
+        <li>
+            <strong>Zelda/Link</strong> (The Legend of Zelda) <br>
+            <a href="https://www.zelda.com/" target="_blank">Visitar sitio de Nintendo</a>
+        </li>
+    </ul>
+
+</body>
+</html>
